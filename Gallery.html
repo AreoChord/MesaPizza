@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <style>
+    body{
+    background-color: black;
+    }
+
+
+    .wrapper{
+    width: 1180px;
+    height: 1024px;
+    background-color: #FFFFFF;
+    position: relative;
+    margin: 0 auto;
+    }
+
+    .heading{
+    width: 1180px;
+    height: 200px;
+    background-color: #3DA2FF;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    }
+
+    .image1{
+    height: 135px;
+    width: 144px;
+    margin-top:  30px;
+    margin-left: 40px;
+    }
+
+
+    a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+    }
+    a:visited {
+    text-decoration: none;
+    color: #FFFFFF ;
+    }
+
+    a:active {
+    text-decoration: none;
+    color: royalblue;
+    }
+    a:hover {
+    cursor: auto ;
+    color: lightgrey;}
+
+
+    nav{
+    width: 1160px;
+    height: 100px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    line-height: 0;
+    }
+
+
+
+    p#nav-section-01, p#nav-section-02,p#nav-section-03, p#nav-section-04
+    {
+    display: inline;
+    font-size: 40px;
+    font-family: PT Sans, Arial, sans-serif;
+    font-weight: bold;
+    padding: 0 45px;
+    }
+
+    .gallery{
+        position: absolute;
+        width: 400px;
+        height: 200px;
+        background-color: #3DA2FF;
+        margin-left: 705px;
+        margin-top: 10px;
+        border-radius: 25px;
+
+    }
+
+#title{
+    position: center;
+    font-family: Roboto, Avenir, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 35px;
+}
+
+#text{
+    position: center;
+    font-family: Roboto, Avenir, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 10px;
+
+
+}
+
+        .gallerybox{
+            position: absolute;
+            width: 1000px;
+            height: 800px;
+            background-color: #FFFFFF;
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+
+
+    /* Three image containers (use 25% for four, and 50% for two, etc) */
+    .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+
+    /* Clear floats after image containers */
+    .row::after {
+        margin-left: 100px;
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+
+
+
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="heading">
+        <div class="image1"  ><a href="mesa_pizza.html"><img class="image1"  src="Mesa-Pizza-logo-2.png"
+                                                             alt="Mesa Pizza Logo" width="144" height="135"></a>
+        </div>
+
+        <nav>
+            <a href="menu.html"><p id="nav-section-01">Menu</p></a>
+            <a href="Order.html"><p id="nav-section-02">Order </p></a>
+            <a href="Coupons.html"><p id="nav-section-03">Coupons</p></a>
+            <a href="JObs.html"><p id="nav-section-04">Jobs</p></a>
+
+        </nav>
+
+    </div>
+
+
+    <div class="gallerybox">
+                <div class="row">
+                    <div class="column">
+                        <img src="Jake.jpg" alt="Jake" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="Dining3.jpeg" alt="Dining3" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="Dining.jpeg" alt="Dining" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="Worker.jpg" alt="Worker" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="Gallo_Lily.jpg" alt="Dining3" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="Shirt1.jpeg" alt="Dining" style="width:100%">
+                    </div>
+
+                    <div class="gallery">
+                        <h1 id="title">Gallery</h1>
+                        <p id="text">Take a Look Around!</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+</div> <!--End Of Wrapper-->
+
+
+
+</body>
+</html>
